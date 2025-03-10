@@ -51,4 +51,17 @@ function capturarValores() {
     let resultado = calculadora('divisao', 5, 3);
     console.log(resultado); // Saída esperada: 8
 
+    //Verificação de Números Pares e Ímpares
+    function verificarParOuImpar(numero) {
+        if (numero % 2 === 0) {
+            return "Par";
+        } else {
+            return "Ímpar";
+        }
+    }
+
+    // Exemplo de uso
+    let numero = 6;
+    let resultadoParOuImpar = verificarParOuImpar(numero);
+    console.log(resultadoParOuImpar); // Saída esperada: Par
 }
